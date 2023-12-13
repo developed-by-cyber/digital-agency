@@ -1196,9 +1196,12 @@ main .offers .cards-hold{
     width: 100%;
   }
   .hero-section .hero-left .btn-hold button {
-    width: 36%;
+    width: 43%;
     height: 48px;
     font-size: 15px;
+  }
+  .hero-section{
+    margin-bottom: 120px !important;
   }
   main .features .features-right img{
     width: 75% !important;
