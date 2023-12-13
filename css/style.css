@@ -4,31 +4,31 @@
   box-sizing: border-box;
   list-style: none;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 /* ===== Scrollbar CSS ===== */
-  /* Firefox */
-  * {
-    scrollbar-width: auto;
-    scrollbar-color:#0905C6  #ffffff;
-  }
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #0905c6 #ffffff;
+}
 
-  /* Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
-    width: 16px;
-  }
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
 
-  *::-webkit-scrollbar-track {
-    background: #ffffff;
-  }
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
 
-  *::-webkit-scrollbar-thumb {
-    background-color: #0905C6;
-    border-radius: 10px;
-    border: 3px solid #ffffff;
-  }
+*::-webkit-scrollbar-thumb {
+  background-color: #0905c6;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
 h1,
 h2,
 h3,
@@ -96,16 +96,16 @@ main header nav .nav-list li a {
   line-height: normal;
   position: relative;
 }
-main header nav .nav-list li:first-child a::before{
-    position: absolute;
-    bottom: -12px;
-    left: 50%;
-    transform: translateX(-50%);
-    content: "";
-    width: 8px;
-height: 8px;
-background: #0905C6;
-border-radius: 50%;
+main header nav .nav-list li:first-child a::before {
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #0905c6;
+  border-radius: 50%;
 }
 main header nav .nav-btn {
   display: flex;
@@ -125,9 +125,9 @@ main header nav .nav-btn button {
   font-weight: 420;
   line-height: normal;
 }
-main header nav .nav-btn button:hover{
-    scale: .98;
-    transition: 0.3s ease-in-out;
+main header nav .nav-btn button:hover {
+  scale: 0.98;
+  transition: 0.3s ease-in-out;
 }
 main header nav .nav-btn button:last-child {
   border-radius: 8px;
@@ -200,9 +200,9 @@ main header nav .nav-btn button:last-child {
   font-weight: 500;
   line-height: normal;
 }
-.hero-section .hero-left .btn-hold button:hover{
-    scale: .98;
-    transition: 0.3s ease-in-out;
+.hero-section .hero-left .btn-hold button:hover {
+  scale: 0.98;
+  transition: 0.3s ease-in-out;
 }
 .hero-section .hero-left .btn-hold button:last-child {
   border-radius: 8px;
@@ -288,12 +288,12 @@ main .about .about-right button {
   line-height: normal;
   border: none;
 }
-main .about .about-right button:hover{
-    border-radius: 8px;
-    border: 1px solid #0905C6;
-    background-color: transparent;
-    color: #0905C6;
-    transition: 0.3s ease-in-out;
+main .about .about-right button:hover {
+  border-radius: 8px;
+  border: 1px solid #0905c6;
+  background-color: transparent;
+  color: #0905c6;
+  transition: 0.3s ease-in-out;
 }
 main .features {
   width: 100%;
@@ -362,10 +362,10 @@ main .features .features-left button {
   font-weight: 500;
   line-height: normal;
 }
-main .features .features-left button:hover{
-    opacity: .95;
-    scale: .98;
-    transition: 0.3s ease-in-out;
+main .features .features-left button:hover {
+  opacity: 0.95;
+  scale: 0.98;
+  transition: 0.3s ease-in-out;
 }
 main .offers {
   padding: 0px 56px;
@@ -408,9 +408,52 @@ main .offers .cards-hold .Cards:hover {
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
-main .offers .cards-hold .Cards img {
+main .offers .cards-hold .Cards .ic {
   margin-bottom: 40px !important;
+  justify-content: center;
+  align-items: center;
+  width: 61px;
+  height: 52px;
+  padding: 6px 11px 6px 10px !important;
+  display: flex;
+  border-radius: 2px;
 }
+main .offers .cards-hold .Cards:nth-child(1) .ic {
+  background: rgba(192, 192, 248, 0.33);
+}
+main .offers .cards-hold .Cards:nth-child(2) .ic {
+    border-radius: 2px;
+    border: 0px solid #C3F1CD;
+    background: rgba(195, 241, 205, 0.33);
+}
+main .offers .cards-hold .Cards:nth-child(3) .ic{
+    border-radius: 2px;
+background: rgba(255, 199, 212, 0.24);
+}
+main .offers .cards-hold .Cards:nth-child(4) .ic{
+    border-radius: 2px;
+background: #FDE7E5;
+}
+main .offers .cards-hold .Cards:nth-child(5) .ic{
+    border-radius: 2px;
+border: 0px solid #DCDCDC;
+background: #DCDCDC;
+}
+main .offers .cards-hold .Cards:nth-child(6) .ic{
+    border-radius: 2px;
+border: 0px solid #FFDEAF;
+background: rgba(254, 194, 108, 0.22);
+}
+/* main .offers .cards-hold .Cards .ic:nth-child(3) {
+    background: rgba(255, 199, 212, 0.24);
+}
+main .offers .cards-hold .Cards .ic:nth-child(4) {
+    background: #FDE7E5;
+}
+main .offers .cards-hold .Cards .ic:nth-child(5) {
+}
+main .offers .cards-hold .Cards .ic:nth-child(6) {
+} */
 main .offers .cards-hold .Cards h2 {
   color: #1e1e1e;
   font-family: Satoshi, sans-serif;
@@ -454,10 +497,10 @@ main .offers .cards-hold .Cards p {
   text-transform: capitalize;
   margin-bottom: 48px !important;
 }
-.projects .heading2:hover svg{
-    margin-left: 10px !important;
-    transition: 0.4s linear;
-    cursor: pointer;
+.projects .heading2:hover svg {
+  margin-left: 10px !important;
+  transition: 0.4s linear;
+  cursor: pointer;
 }
 .projects .images {
   display: flex;
@@ -557,17 +600,17 @@ main .offers .cards-hold .Cards p {
   padding-left: 111px;
   /* position: relative; */
 }
-.caro{
-    bottom: -75px !important;
+.caro {
+  bottom: -75px !important;
 }
-.carousel-indicators [data-bs-target]{
-    background-color: #9696F654 !important;
-    opacity: 1 !important;
+.carousel-indicators [data-bs-target] {
+  background-color: #9696f654 !important;
+  opacity: 1 !important;
 }
 .carousel-indicators .active {
-    opacity: 1;
-    background-color: #0905C6 !important;
-  }
+  opacity: 1;
+  background-color: #0905c6 !important;
+}
 /* .carousel-indicators [data-bs-target]:active{
     background-color: #0905C6 !important;
 } */
@@ -736,10 +779,10 @@ footer .links .right .subs button {
   top: 0;
   right: 0;
 }
-footer .links .right .subs button:hover{
-    cursor: pointer;
-    opacity: .8;
-    transition: 0.3s ease-in-out;
+footer .links .right .subs button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s ease-in-out;
 }
 footer .links .right .social {
   display: flex;
@@ -792,10 +835,10 @@ footer .credits .right a {
   opacity: 0.7;
   display: none;
 }
-.heros{
-    display: none;
-  }
-  /* @media screen and (min-width: 2000px){
+.heros {
+  display: none;
+}
+/* @media screen and (min-width: 2000px){
     main{
         max-width: 1600px;
     }
@@ -817,24 +860,25 @@ footer .credits .right a {
   .hero-section .hero-right .hero-3 {
     right: -50px !important;
   }
-  main .about .about-right h1{
+  main .about .about-right h1 {
     font-size: 40px;
   }
-  main .features .features-right{
+  main .features .features-right {
     /* background-color: red; */
     display: flex;
     width: fit-content;
   }
-  main .features .features-right img{
+  main .features .features-right img {
     width: 105% !important;
   }
-  main .features .features-left .heading1{
+  main .features .features-left .heading1 {
     font-size: 40px;
   }
-  .projects .images .first, .projects .images .second{
+  .projects .images .first,
+  .projects .images .second {
     gap: 50px;
   }
-  .reviews .review-card{
+  .reviews .review-card {
     padding: 0px 40px !important;
   }
 }
@@ -864,17 +908,17 @@ footer .credits .right a {
     margin-top: 20px;
   }
 
-  .reviews .review-card{
+  .reviews .review-card {
     padding: 0px 20px !important;
   }
-  footer .links .links-hold{
+  footer .links .links-hold {
     flex-direction: column;
     gap: 30px;
   }
-  footer .links .left{
+  footer .links .left {
     width: 70%;
   }
-  footer .links .right{
+  footer .links .right {
     width: 50%;
   }
 }
@@ -941,19 +985,20 @@ footer .credits .right a {
   main header .desk {
     display: none;
   }
-  main .landing, main .about {
+  main .landing,
+  main .about {
     padding: 30px 30px 0px 30px;
   }
-  .projects{
+  .projects {
     padding: 0px 30px !important;
   }
-  footer .links{
+  footer .links {
     padding: 0px 30px !important;
   }
-  main .about .about-right{
+  main .about .about-right {
     width: 100%;
   }
-  main .about .about-left img{
+  main .about .about-left img {
     width: 100%;
   }
   main .hero-section {
@@ -973,114 +1018,116 @@ footer .credits .right a {
     font-size: 18px;
     width: 90%;
   }
-  main .about{
+  main .about {
     flex-direction: column;
     gap: 70px;
   }
-  main .about .about-left{
+  main .about .about-left {
     width: 100% !important;
     display: flex;
     justify-content: center;
     /* background-color: red; */
   }
-  main .features .hold{
+  main .features .hold {
     flex-direction: column;
     height: fit-content;
   }
-  main .features{
+  main .features {
     min-height: 1000px;
   }
-  main .features .features-right{
+  main .features .features-right {
     width: 100%;
     justify-content: center;
     margin-bottom: 90px;
   }
-  main .features .features-right img{
+  main .features .features-right img {
     width: 50% !important;
   }
-  main .features .features-left{
+  main .features .features-left {
     order: 2;
     width: 100%;
     text-align: center;
   }
-  main .features .features-left .para{
+  main .features .features-left .para {
     text-align: center !important;
     width: 100%;
   }
-  main .features .features-left .heading1{
+  main .features .features-left .heading1 {
     text-align: center;
     width: 100%;
   }
-  main .offers .heading{
+  main .offers .heading {
     font-size: 40px;
     width: 100%;
   }
-  main .offers .cards-hold .Cards{
+  main .offers .cards-hold .Cards {
     justify-content: flex-end;
   }
-  main .offers .cards-hold .Cards{
+  main .offers .cards-hold .Cards {
     min-height: 300px;
   }
-  main .offers .cards-hold{
+  main .offers .cards-hold {
     grid-template-columns: 1fr 1fr;
   }
-  main .offers .cards-hold .Cards h2{
+  main .offers .cards-hold .Cards h2 {
     font-size: 15px !important;
   }
-  main .offers{
+  main .offers {
     padding: 0px 25px;
   }
-  .projects .images .second, .projects .images .first{
+  .projects .images .second,
+  .projects .images .first {
     height: 500px;
   }
-  .projects .images .first .right, .projects .images .second .left{
+  .projects .images .first .right,
+  .projects .images .second .left {
     max-height: 400px;
   }
-  .reviews{
+  .reviews {
     padding: 0px 30px !important;
   }
-  .reviews .review-card{
+  .reviews .review-card {
     flex-direction: column;
   }
-  .reviews .review-card .person img{
+  .reviews .review-card .person img {
     position: unset;
     width: 130px;
     display: none;
     /* height: 200px; */
     /* object-fit: cover; */
   }
-  .reviews .review-card{
+  .reviews .review-card {
     height: fit-content;
     padding-top: 40px !important;
     padding-bottom: 40px !important;
   }
-  .reviews p{
+  .reviews p {
     margin-bottom: 40px !important;
   }
-  .reviews .review-card .content{
+  .reviews .review-card .content {
     margin-top: 0px !important;
   }
-  footer{
+  footer {
     height: fit-content;
     padding-bottom: 50px;
   }
-  footer .links .line{
+  footer .links .line {
     margin-bottom: 40px !important;
   }
 }
 @media screen and (max-width: 768px) {
-    .mobile-nav{
-        /* display: none; */
-    }
-    .hero-section .hero-right{
-       width: 100%;
-    }
+  .mobile-nav {
+    /* display: none; */
+  }
+  .hero-section .hero-right {
+    width: 100%;
+  }
   .hero-section .hero-right .hero {
     margin-right: 0px !important;
     width: 400px;
     height: 400px;
   }
-  main .features .hold{
+  main .features .hold {
     padding: 50px 25px 66px 25px;
   }
   .hero-section .hero-right {
@@ -1098,65 +1145,68 @@ footer .credits .right a {
     width: 35%;
     left: 40px;
   }
-  main .features .features-right img{
+  main .features .features-right img {
     width: 70% !important;
   }
   main .features {
     min-height: 950px;
-}
-main .offers .cards-hold{
+  }
+  main .offers .cards-hold {
     grid-template-columns: 1fr;
   }
-  main .offers .heading{
+  main .offers .heading {
     font-size: 30px;
   }
-  .projects .heading, .projects .heading2{
+  .projects .heading,
+  .projects .heading2 {
     font-size: 30px;
   }
-  .projects .images .first, .projects .images .second{
+  .projects .images .first,
+  .projects .images .second {
     gap: 25px;
   }
-  .reviews .review-card .content p{
+  .reviews .review-card .content p {
     width: 100%;
   }
-  footer .links .left, footer .links .right{
+  footer .links .left,
+  footer .links .right {
     width: 100%;
   }
-  footer .links .left{
+  footer .links .left {
     flex-direction: column;
   }
-  footer .links .left .logo{
+  footer .links .left .logo {
     margin-bottom: 40px !important;
   }
-  footer .links .left .logo p{
+  footer .links .left .logo p {
     width: 100%;
   }
-  footer .credits{
+  footer .credits {
     flex-direction: column;
     gap: 20px;
   }
-  footer .links .left ul:last-child{
+  footer .links .left ul:last-child {
     margin-top: 40px !important;
   }
 }
 @media screen and (max-width: 480px) {
-    .heros{
-        display: block;
-        width: 90%;
-    }
-    main .about .about-right p{
-        width: 100%;
-    }
-    .mobile-nav .side-bar ul li a{
-        font-size: 18px !important;
-    }
+  .heros {
+    display: block;
+    width: 90%;
+  }
+  main .about .about-right p {
+    width: 100%;
+  }
+  .mobile-nav .side-bar ul li a {
+    font-size: 18px !important;
+  }
   .mobile-nav .side-bar {
     width: 100%;
   }
-  .mobile-nav .logo img{
+  .mobile-nav .logo img {
     width: 45%;
   }
-  .hero-section .hero-right{
+  .hero-section .hero-right {
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -1173,10 +1223,10 @@ main .offers .cards-hold{
   .hero-section .hero-right .hero-2 {
     left: 20px;
   }
-  .hero-section .hero-left{
+  .hero-section .hero-left {
     margin-top: 30px !important;
   }
-  .hero-section .hero-left h1{
+  .hero-section .hero-left h1 {
     margin-bottom: 20px !important;
   }
   .hero-section .hero-left h1,
@@ -1184,15 +1234,17 @@ main .offers .cards-hold{
     /* font-size: 35px !important; */
     width: 100%;
   }
-  main .about .about-right h1{
+  main .about .about-right h1 {
     font-size: 35px;
   }
-  .hero-section .hero-left p, main .about .about-right p, main .features .features-left .para {
+  .hero-section .hero-left p,
+  main .about .about-right p,
+  main .features .features-left .para {
     width: 100%;
     font-size: 18px;
     line-height: 26px;
   }
-  .hero-section .hero-left .btn-hold{
+  .hero-section .hero-left .btn-hold {
     width: 100%;
   }
   .hero-section .hero-left .btn-hold button {
@@ -1200,83 +1252,88 @@ main .offers .cards-hold{
     height: 48px;
     font-size: 15px;
   }
-  .hero-section{
+  .hero-section {
     margin-bottom: 120px !important;
   }
-  main .features .features-right img{
+  main .features .features-right img {
     width: 90% !important;
   }
-  main .features .features-left{
+  main .features .features-left {
     text-align: left;
   }
-  main .features .features-left .heading1, main .features .features-left .para{
+  main .features .features-left .heading1,
+  main .features .features-left .para {
     text-align: left !important;
   }
   main .features {
     min-height: 900px;
-}
-main .offers .heading{
+  }
+  main .offers .heading {
     font-size: 35px;
     width: 100%;
-}
-main .offers .cards-hold .Cards{
+  }
+  main .offers .cards-hold .Cards {
     padding: 58px 24px;
-}
-main .offers .cards-hold .Cards h2{
+  }
+  main .offers .cards-hold .Cards h2 {
     font-size: 18px !important;
-}
-main .offers .cards-hold .Cards img{
+  }
+  main .offers .cards-hold .Cards .ic {
     margin-bottom: 30px !important;
-}
-main .offers .cards-hold .Cards p{
+  }
+  main .offers .cards-hold .Cards p {
     line-height: 26px !important;
-}
-main .offers .cards-hold .Cards p
-.projects .images .second, .projects .images .first, .projects .images .first .right, .projects .images .second{
+  }
+  main .offers .cards-hold .Cards p .projects .images .second,
+  .projects .images .first,
+  .projects .images .first .right,
+  .projects .images .second {
     height: 300px;
-}
-.projects .images .first .right, .projects .images .second .left{
+  }
+  .projects .images .first .right,
+  .projects .images .second .left {
     max-height: 260px;
-}
-.projects .images{
+  }
+  .projects .images {
     gap: 30px;
-}
-.projects .images .first, .projects .images .second{
+  }
+  .projects .images .first,
+  .projects .images .second {
     gap: 15px;
-}
-.projects{
+  }
+  .projects {
     padding: 0px 15px !important;
-}
-.reviews{
+  }
+  .reviews {
     padding: 0px 25px !important;
-}
-.reviews .heading{
+  }
+  .reviews .heading {
     font-size: 30px !important;
-}
-.reviews .review-card .content p{
+  }
+  .reviews .review-card .content p {
     font-size: 18px;
     line-height: 26px !important;
-}
-footer .links .left .logo p{
+  }
+  footer .links .left .logo p {
     line-height: 26px !important;
-}
-.reviews .review-card .content h5{
+  }
+  .reviews .review-card .content h5 {
     font-size: 14.5px;
-}
-.reviews .review-card .content span{
+  }
+  .reviews .review-card .content span {
     font-size: 10.5px;
-}
-.reviews svg{
+  }
+  .reviews svg {
     width: 40px;
-}
-.reviews .icon{
+  }
+  .reviews .icon {
     margin-bottom: 10px !important;
-}
-footer .links .right .subs button{
+  }
+  footer .links .right .subs button {
     position: unset;
     width: 100%;
     margin-top: 16px !important;
-}
+  }
 }
 @media screen and (max-width: 380px) {
   .hero-section .hero-right .hero {
