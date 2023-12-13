@@ -1176,6 +1176,9 @@ main .offers .cards-hold{
   .hero-section .hero-left{
     margin-top: 30px !important;
   }
+  .hero-section .hero-left h1{
+    margin-bottom: 20px !important;
+  }
   .hero-section .hero-left h1,
   .hero-section .hero-left span {
     /* font-size: 35px !important; */
@@ -1186,7 +1189,8 @@ main .offers .cards-hold{
   }
   .hero-section .hero-left p {
     width: 100%;
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 26px;
   }
   .hero-section .hero-left .btn-hold{
     width: 100%;
