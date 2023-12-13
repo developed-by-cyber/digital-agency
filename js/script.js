@@ -19,7 +19,7 @@ ScrollReveal({
     duration: 2000,
     delay: 400
 });
-ScrollReveal().reveal('.nav-list li', { delay: 400, origin:"top", interval: 200 });
+ScrollReveal().reveal('.navy li', { delay: 400, origin:"top", interval: 200 });
 ScrollReveal().reveal('.nav-btn button', { delay: 500, origin:"right", interval: 200 });
 ScrollReveal().reveal('.logo', { delay: 300, origin:"left" });
 ScrollReveal().reveal('.hero-left h1', { delay: 500, origin:"top" });

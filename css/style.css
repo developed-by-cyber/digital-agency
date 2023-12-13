@@ -1178,7 +1178,7 @@ main .offers .cards-hold{
   }
   .hero-section .hero-left h1,
   .hero-section .hero-left span {
-    font-size: 35px !important;
+    /* font-size: 35px !important; */
     width: 100%;
   }
   main .about .about-right h1{
