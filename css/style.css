@@ -501,10 +501,10 @@ main .offers .cards-hold .Cards p {
 .projects .images .ss .right {
   height: 100%;
   width: 652px;
-  background-image: url(../images/mock.jpeg);
+  background-image: url(../images/drug.jpeg);
+  /* background-image: url(../images/mock.jpeg); */
   background-position: center;
   background-size: cover;
-  display: block !important;
 }
 
 .projects .images .second .left {
@@ -513,7 +513,6 @@ main .offers .cards-hold .Cards p {
   background-image: url(../images/drug.jpeg);
   background-position: center;
   background-size: cover;
-    /* display: none; */
 }
 .reviews {
   padding: 0px 56px !important;
