@@ -501,8 +501,8 @@ main .offers .cards-hold .Cards p {
 .projects .images .ss .right {
   height: 100%;
   width: 652px;
-  background-image: url(../images/drug.jpeg);
-  /* background-image: url(../images/mock.jpeg); */
+  /* background-image: url(../images/drug.jpeg); */
+  background-image: url(../images/mocks.png);
   background-position: center;
   background-size: cover;
 }
